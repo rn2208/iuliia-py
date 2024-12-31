@@ -14,12 +14,12 @@ class Schema:
     def __init__(
         self,
         name: str,
-        mapping: Dict[str, str],
-        prev_mapping: Dict[str, str] = None,
-        next_mapping: Dict[str, str] = None,
-        ending_mapping: Dict[str, str] = None,
-        samples: List[List[str]] = None,
-        description: str = None,
+        mapping,
+        prev_mapping = None,
+        next_mapping = None,
+        ending_mapping = None,
+        samples = None,
+        description = None,
     ):
         self.name = name
         self.description = description
@@ -77,11 +77,11 @@ class SchemaDefinition:
         self.source = source
         self.name = ""
         self.description: None
-        self.mapping: Dict[str, str] = {}
+        self.mapping = {}
         self.prev_mapping = None
         self.next_mapping = None
         self.ending_mapping = None
-        self.samples: List[List[str]] = []
+        self.samples = []
 
     def parse(self):
         """Parse source definition, raising ValueError if necessary."""
