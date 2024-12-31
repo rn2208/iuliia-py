@@ -1,0 +1,34 @@
+{
+    "urls": [
+        [
+            "iuliia/engine.py",
+            "github:rn2208/iuliia-py/iuliia/engine.py"
+        ],
+        [
+            "iuliia/__init__.py",
+            "github:rn2208/iuliia-py/iuliia/__init__.py"
+        ],
+        [
+            "iuliia/__main__.py",
+            "github:rn2208/iuliia-py/iuliia/__main__.py"
+        ],
+        [
+            "iuliia/mapping.py",
+            "github:rn2208/iuliia-py/iuliia/mapping.py"
+        ],
+        [
+            "iuliia/schema.py",
+            "github:rn2208/iuliia-py/iuliia/schema.py"
+        ],
+        [
+            "iuliia/schemas.py",
+            "github:rn2208/iuliia-py/iuliia/schemas.py"
+        ],
+        [
+            "iuliia/schemas/gost_7034.json",
+            "github:rn2208/iuliia-py/iuliia/gost_7034.json"
+        ]
+    ],
+    "deps": [],
+    "version": "0.1.0"
+}
