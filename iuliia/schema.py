@@ -1,7 +1,6 @@
 """
 Transliteration schema base features.
 """
-from typing import Dict, List
 from .mapping import LetterMapping, PrevMapping, NextMapping, EndingMapping
 
 
