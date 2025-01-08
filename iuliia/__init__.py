@@ -3,9 +3,9 @@ Transliterate Cyrillic → Latin in every possible way
 """
 
 # flake8: noqa
-from .engine import translate
-from .schema import Schema
-from .schemas import Schemas
+from engine import translate
+from schema import Schema
+from schemas import Schemas
 
 __version__ = "0.11.5"
 __all__ = []  # type: ignore
